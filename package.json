@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Dekahouse/async-landing-course/issues"
   },
-  "homepage": "https://github.com/Dekahouse/async-landing-course#readme"
+  "homepage": "https://github.com/Dekahouse/async-landing-course#readme",
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
 }
